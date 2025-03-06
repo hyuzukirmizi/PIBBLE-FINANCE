@@ -23,11 +23,21 @@ Apple = yf.Ticker("APPL")
 Apple = Apple.history(period="max")
 del Apple["Dividends"], Apple["Stock Splits"]
 
+Google = yf.Ticker("GOOGL")
+Google = Google.history(period = "max")
+del Google["Dividends"], Google["Stock Splits"]
+
+Amazon yf.Ticker("AMZN")
+Amazon = Amazon.history(period = "max")
+del Amazon["Dividends"], Amazon["Stock Splits"]
+
 #Plot the stock into a line graph
 nvda_graph = Nvidia.plot.line(y="Close", use_index=True)
 tsla_graph = Tesla.plot.line(y="Close", use_index=True)
 meta_graph = Meta.plot.line(y="Close", use_index=True)
 msft_graph = Microsoft.plot.line(y="Close", use_index=True)
+appl_graph = Apple.plot.line(y = "Close", use_index = True)
+amzn_graph = Amazon.plot.line(y = "Close", use_index = True)
 
 
 
