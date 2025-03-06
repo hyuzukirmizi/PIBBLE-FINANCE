@@ -19,6 +19,9 @@ Microsoft = yf.Ticker("MSFT")
 Microsoft = Microsoft.history(period="max")
 del Microsoft["Dividends"], Microsoft["Stock Splits"]
 
+Apple = yf.Ticker("APPL")
+Apple = Apple.history(period="max")
+del Apple["Dividends"], Apple["Stock Splits"]
 
 #Plot the stock into a line graph
 nvda_graph = Nvidia.plot.line(y="Close", use_index=True)
