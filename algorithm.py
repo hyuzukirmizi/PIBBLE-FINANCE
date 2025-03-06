@@ -25,6 +25,9 @@ del Apple["Dividends"], Apple["Stock Splits"]
 
 #Plot the stock into a line graph
 nvda_graph = Nvidia.plot.line(y="Close", use_index=True)
+tsla_graph = Tesla.plot.line(y="Close", use_index=True)
+meta_graph = Meta.plot.line(y="Close", use_index=True)
+msft_graph = Microsoft.plot.line(y="Close", use_index=True)
 
 
 
