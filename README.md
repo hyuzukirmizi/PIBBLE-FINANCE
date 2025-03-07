@@ -1,1 +1,1 @@
-Initialized the stock variables for Nvidia, Tesla, Meta and Microsoft. And created the data of their history prices.
+Initialized the stock variables for Magnificent Seven. And created the data of their history prices.
