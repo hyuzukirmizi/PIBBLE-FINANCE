@@ -19,7 +19,7 @@ Microsoft = yf.Ticker("MSFT")
 Microsoft = Microsoft.history(period="max")
 del Microsoft["Dividends"], Microsoft["Stock Splits"]
 
-Apple = yf.Ticker("APPL")
+Apple = yf.Ticker("AAPL")
 Apple = Apple.history(period="max")
 del Apple["Dividends"], Apple["Stock Splits"]
 
@@ -27,7 +27,7 @@ Google = yf.Ticker("GOOGL")
 Google = Google.history(period = "max")
 del Google["Dividends"], Google["Stock Splits"]
 
-Amazon yf.Ticker("AMZN")
+Amazon = yf.Ticker("AMZN")
 Amazon = Amazon.history(period = "max")
 del Amazon["Dividends"], Amazon["Stock Splits"]
 
